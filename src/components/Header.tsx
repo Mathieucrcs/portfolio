@@ -146,6 +146,7 @@ export const Header = () => {
             </Flex>
           </Flex>
         </Flex>
+
         <Flex fillWidth horizontal="end" vertical="center">
           <Flex
             paddingRight="12"
