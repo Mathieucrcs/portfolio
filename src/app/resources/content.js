@@ -1,8 +1,8 @@
 import { InlineCode } from "@/once-ui/components";
 
 const person = {
-  firstName: "Selene",
-  lastName: "Yu",
+  firstName: "Mathieu",
+  lastName: "Carcasses",
   get name() {
     return `${this.firstName} ${this.lastName}`;
   },
@@ -29,12 +29,12 @@ const social = [
   {
     name: "GitHub",
     icon: "github",
-    link: "https://github.com/once-ui-system/nextjs-starter",
+    link: "https://github.com/Mathieucrcs",
   },
   {
     name: "LinkedIn",
     icon: "linkedin",
-    link: "https://www.linkedin.com/company/once-ui/",
+    link: "https://www.linkedin.com/in/mathieu-carcasses/",
   },
   {
     name: "X",
@@ -44,13 +44,13 @@ const social = [
   {
     name: "Email",
     icon: "email",
-    link: "mailto:example@gmail.com",
+    link: "mailto:carcasses.mathieu@live.fr",
   },
 ];
 
 const home = {
   label: "Home",
-  title: `${person.name}'s Portfolio`,
+  title: `Portfolio Mathieu CARCASSES`,
   description: `Portfolio website showcasing my work as a ${person.role}`,
   headline: <>Mathieu CARCASSES<br /><InlineCode>Etudiant</InlineCode></>,
   subline: (
@@ -62,8 +62,8 @@ const home = {
 };
 
 const about = {
-  label: "About",
-  title: "À propos de moi",
+  label: "Profil",
+  title: "Mon Profil",
   description: `Meet ${person.name}, ${person.role} from ${person.location}`,
   tableOfContent: {
     display: true,
@@ -196,8 +196,8 @@ const blog = {
 };
 
 const work = {
-  label: "Work",
-  title: "My projects",
+  label: "Mes projets",
+  title: "Projets",
   description: `Design and dev projects by ${person.name}`,
   // Create new project pages by adding a new .mdx file to app/blog/posts
   // All projects will be listed on the /home and /work routes
