@@ -7,7 +7,7 @@ const person = {
     return `${this.firstName} ${this.lastName}`;
   },
   role: "Design Engineer",
-  avatar: "/images/avatar.jpg",
+  avatar: "/images/photoperso.png",
   location: "Asia/Jakarta", // Expecting the IANA time zone identifier, e.g., 'Europe/Vienna'
   languages: ["English", "Bahasa"], // optional: Leave the array empty if you don't want to display languages
 };
@@ -55,15 +55,15 @@ const home = {
   headline: <>Mathieu CARCASSES<br /><InlineCode>Etudiant</InlineCode></>,
   subline: (
     <>
-      I'm Selene, a design engineer at <InlineCode>FLY</InlineCode>, where I craft intuitive
-      <br /> user experiences. After hours, I build my own projects.
+      Je suis Mathieu CARCASSES
+      <br /> bla bla bla.
     </>
   ),
 };
 
 const about = {
   label: "About",
-  title: "About me",
+  title: "À propos de moi",
   description: `Meet ${person.name}, ${person.role} from ${person.location}`,
   tableOfContent: {
     display: true,
@@ -73,7 +73,7 @@ const about = {
     display: true,
   },
   calendar: {
-    display: true,
+    display: false,
     link: "https://cal.com",
   },
   intro: {
