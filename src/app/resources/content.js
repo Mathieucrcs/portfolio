@@ -6,10 +6,10 @@ const person = {
   get name() {
     return `${this.firstName} ${this.lastName}`;
   },
-  role: "Design Engineer",
+  role: "Étudiant en deuxième année de bachelor informatique",
   avatar: "/images/photoperso.png",
-  location: "Asia/Jakarta", // Expecting the IANA time zone identifier, e.g., 'Europe/Vienna'
-  languages: ["English", "Bahasa"], // optional: Leave the array empty if you don't want to display languages
+  location: "France / Toulouse", // Expecting the IANA time zone identifier, e.g., 'Europe/Vienna'
+  languages: ["Français", "Anglais"], // optional: Leave the array empty if you don't want to display languages
 };
 
 const newsletter = {
@@ -52,18 +52,18 @@ const home = {
   label: "Home",
   title: `Portfolio Mathieu CARCASSES`,
   description: `Portfolio website showcasing my work as a ${person.role}`,
-  headline: <>Mathieu CARCASSES<br /><InlineCode>Etudiant</InlineCode></>,
+  headline: <>Mathieu CARCASSES<br /></>,
   subline: (
     <>
-      Je suis Mathieu CARCASSES
-      <br /> bla bla bla.
+      Étudiant de 20 ans en deuxième année de bachelor informatique à l'IPI Toulouse, Je vise à enrichir en permanence mes compétences en développement et à découvrir de nouvelles technologies.
+      <br />
     </>
   ),
 };
 
 const about = {
   label: "Profil",
-  title: "Mon Profil",
+  title: "Voir mon Profil",
   description: `Meet ${person.name}, ${person.role} from ${person.location}`,
   tableOfContent: {
     display: true,
@@ -78,31 +78,28 @@ const about = {
   },
   intro: {
     display: true,
-    title: "Introduction",
+    title: "Profil",
     description: (
       <>
-        Selene is a Jakarta-based design engineer with a passion for transforming complex challenges
-        into simple, elegant design solutions. Her work spans digital interfaces, interactive
-        experiences, and the convergence of design and technology.
+        Étudiant en informatique à l'IPI Blagnac, spécialisé en développement logiciel et web, je suis passionné par la technologie et son impact. Mon parcours m'a permis d'acquérir des compétences en programmation et gestion de projets. Mon expérience à l’Hôtel Beauséjour Toulouse a renforcé mon organisation, ma communication et mon adaptabilité. Le sport m'a appris la discipline et l'esprit d'équipe. Mes voyages en Europe ont élargi ma vision et ma compréhension des cultures. Curieux et motivé, je cherche à apprendre continuellement et à relever de nouveaux défis.
       </>
     ),
   },
   work: {
     display: true, // set to false to hide this section
-    title: "Work Experience",
+    title: "Expériences professionnelles",
     experiences: [
       {
-        company: "FLY",
-        timeframe: "2022 - Present",
-        role: "Senior Design Engineer",
+        company: "Stage Dispofi",
+        timeframe: "2025 - Present",
+        role: "Stagiaire",
         achievements: [
           <>
-            Redesigned the UI/UX for the FLY platform, resulting in a 20% increase in user
-            engagement and 30% faster load times.
+            Migration CMS - Bonne-assurance.com
           </>,
           <>
-            Spearheaded the integration of AI tools into design workflows, enabling designers to
-            iterate 50% faster.
+            Migration d’un site existant avec 2 cms. Wordpress / Storyblok vers le CMS Payload.
+            Environnement technique : React / NextJs / MongoDB / Aws / Cloudfront / AppRunne
           </>,
         ],
         images: [
@@ -116,17 +113,18 @@ const about = {
         ],
       },
       {
-        company: "Creativ3",
-        timeframe: "2018 - 2022",
-        role: "Lead Designer",
+        company: "Hôtel Beauséjour Toulouse",
+        timeframe: "2020 - 2023",
+        role: "Stagiaire",
         achievements: [
           <>
-            Developed a design system that unified the brand across multiple platforms, improving
-            design consistency by 40%.
+            Réservations et gestion des stocks : Maîtrise de la planification, gestion des flux.
+            Réception et e-notoriété : Satisfaction client, gestion de l’image de marque.
+            Facturation : Organisation, fiabilité et précision.
           </>,
           <>
-            Led a cross-functional team to launch a new product line, contributing to a 15% increase
-            in overall company revenue.
+            Compétences développées :
+            Gestion des priorités, travail en équipe, adaptabilité.
           </>,
         ],
         images: [],
@@ -135,21 +133,22 @@ const about = {
   },
   studies: {
     display: true, // set to false to hide this section
-    title: "Studies",
+    title: "Cursus scolaire",
     institutions: [
       {
-        name: "University of Jakarta",
-        description: <>Studied software engineering.</>,
+        name: "Campus Igensia Ecole IPI ",
+        description: <>En cours d'obtention d'une licence d'informatique spécialité développement.</>,
       },
       {
-        name: "Build the Future",
-        description: <>Studied online marketing and personal branding.</>,
+        name: "Lycée Saint-Sernin Toulouse :",
+        timeframe: "2021 - 2023",
+        description: <>Baccalauréat général en mathématiques, sciences numériques et informatiques.</>,
       },
     ],
   },
   technical: {
     display: true, // set to false to hide this section
-    title: "Technical skills",
+    title: "Compétences techniques",
     skills: [
       {
         title: "Figma",
