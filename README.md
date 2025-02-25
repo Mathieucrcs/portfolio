@@ -3,7 +3,7 @@
 ⚠ En cours de développement ⚠
 Voir mon Portfolio [Cliquez ICI](https://mathieucarcasses.vercel.app/).
 
-![Magic Portfolio](img width="2557" alt="Capture d’écran 2025-02-25 à 09 52 00" src="https://github.com/user-attachments/assets/66b093c9-d4ba-4898-a429-a93216580541" )
+![image](https://github.com/user-attachments/assets/26ddf861-e2ba-4ac6-bb67-26ded3baf0a9)
 
 
 
