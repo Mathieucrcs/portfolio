@@ -6,6 +6,7 @@ Voir mon Portfolio [Cliquez ICI](https://mathieucarcasses.vercel.app/).
 ![image](https://github.com/user-attachments/assets/26ddf861-e2ba-4ac6-bb67-26ded3baf0a9)
 
 
+Bienvenue dans mon portfolio en développement informatique ! Passionné par la création de solutions innovantes, j'ai rassemblé ici une sélection de mes projets récents qui illustrent mes compétences et mon parcours. J'espère que cette vitrine de mon travail vous inspirera et vous donnera un aperçu de ma passion pour le développement.
 
 # **Getting started**
 
