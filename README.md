@@ -10,7 +10,7 @@ Bienvenue dans mon portfolio en développement informatique ! Passionné par la 
 
 # **Pour Commencer**
 
-Magic Portfolio was built with [Once UI](https://once-ui.com) for [Next.js](https://nextjs.org). It requires Node.js v18.17+.
+Mon Portfolio a été déployé sur Vercel ! Conçu avec [Next.js](https://nextjs.org) et [Once UI](https://once-ui.com), il offre une navigation fluide et une interface moderne. 
 
 **1. Cloner le dépôt**
 ```
@@ -43,4 +43,4 @@ Add a new .mdx file to src/app/blog/posts ou src/app/work/projects
 ```
 
 # ** Mon Portfolio a été déployé avec Vercel**
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fonce-ui-system%2Fmagic-portfolio&project-name=portfolio&repository-name=portfolio&redirect-url=https%3A%2F%2Fgithub.com%2Fonce-ui-system%2Fmagic-portfolio&demo-title=Magic%20Portfolio&demo-description=Showcase%20your%20designers%20or%20developer%20portfolio&demo-url=https%3A%2F%2Fdemo.magic-portfolio.com&demo-image=%2F%2Fraw.githubusercontent.com%2Fonce-ui-system%2Fmagic-portfolio%2Fmain%2Fpublic%2Fimages%2Fcover.png)
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/)
